@@ -1,0 +1,92 @@
+@{
+    ViewData["Title"] = "ASP.NET Core Quiz";
+}
+
+@* Temporary quiz layout. Questions and alternatives will be replaced with actual quiz content. *@
+<h1>ASP.NET Core Quiz</h1>
+<p>Answer the questions below and submit the quiz when you are finished.</p>
+
+<div class="card mb-3">
+    <div class="card-body p-4">
+        <h5>Question 1</h5>
+        <p>question</p>
+
+        <div class="form-check">
+            <input class="form-check-input"
+                   type="radio"
+                   name="question1"
+                   id="q1a1">
+            <label class="form-check-label" for="q1a1">
+                alternative
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input"
+                   type="radio"
+                   name="question1"
+                   id="q1a2">
+            <label class="form-check-label" for="q1a2">
+                alternative
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input"
+                   type="radio"
+                   name="question1"
+                   id="q1a3">
+            <label class="form-check-label" for="q1a3">
+                alternative
+            </label>
+        </div>
+    </div>
+</div>
+
+<div class="card mb-3">
+    <div class="card-body p-4">
+        <h5>Question 2</h5>
+        <p>question</p>
+
+        <div class="form-check">
+            <input class="form-check-input"
+                   type="radio"
+                   name="question2"
+                   id="q2a1">
+            <label class="form-check-label" for="q2a1">
+                alternative
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input"
+                   type="radio"
+                   name="question2"
+                   id="q2a2">
+            <label class="form-check-label" for="q2a2">
+                alternative
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input"
+                   type="radio"
+                   name="question2"
+                   id="q2a3">
+            <label class="form-check-label" for="q2a3">
+                alternative
+            </label>
+        </div>
+    </div>
+</div>
+
+@* Submit functionality will be added later. *@
+<button class="btn btn-primary">
+    Submit Quiz
+</button>
+
+<a class="btn btn-outline-secondary"
+   asp-controller="Home"
+   asp-action="Quizzes">
+    Back to Quizzes
+</a>

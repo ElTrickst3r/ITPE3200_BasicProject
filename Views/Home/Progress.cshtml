@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "My Progress";
+}
+
+<h1>My Progress</h1>
+<p>View your completed quizzes and learning progress.</p>
+
+@* Temporary empty state. Completed quizzes and progress can be displayed here later. *@
+<div class="card mt-4">
+    <div class="card-body p-4">
+        <h5>No completed quizzes yet</h5>
+        <p>
+            Complete a quiz to start tracking your progress.
+        </p>
+
+        <a class="btn btn-primary"
+           asp-controller="Home"
+           asp-action="Quizzes">
+            Browse Quizzes
+        </a>
+    </div>
+</div>

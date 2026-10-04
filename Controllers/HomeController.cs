@@ -11,7 +11,27 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult Quizzes()
+    {
+        return View();
+    }
+
+    public IActionResult Progress()
+    {
+        return View();
+    }
+
+    public IActionResult Quiz1()
+    {
+        return View();
+    }
+
+    public IActionResult Quiz2()
+    {
+        return View();
+    }
+
+    public IActionResult Quiz3()
     {
         return View();
     }

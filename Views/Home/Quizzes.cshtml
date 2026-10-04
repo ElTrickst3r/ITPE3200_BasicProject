@@ -1,0 +1,57 @@
+@{
+    ViewData["Title"] = "Quizzes";
+}
+
+<h1>Quizzes</h1>
+
+<p>Choose a quiz to practice your course knowledge.</p>
+
+@* Temporary quiz cards. More quizzes can be added later. *@
+<div class="row mt-4">
+
+    <div class="col-md-4 mb-3">
+        <div class="card h-100">
+            <div class="card-body p-4">
+                <h5>ASP.NET Core Quiz</h5>
+                <p>Quiz description.</p>
+
+                <a class="btn btn-primary"
+                   asp-controller="Home"
+                   asp-action="Quiz1">
+                    Start Quiz
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card h-100">
+            <div class="card-body p-4">
+                <h5>MVC Quiz</h5>
+                <p>Quiz description.</p>
+
+                <a class="btn btn-primary"
+                   asp-controller="Home"
+                   asp-action="Quiz2">
+                    Start Quiz
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card h-100">
+            <div class="card-body p-4">
+                <h5>Entity Framework Quiz</h5>
+                <p>Quiz description.</p>
+
+                <a class="btn btn-primary"
+                   asp-controller="Home"
+                   asp-action="Quiz3">
+                    Start Quiz
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>

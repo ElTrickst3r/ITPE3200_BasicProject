@@ -8,8 +8,12 @@ html {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #3f6b57;
 }
 
 html {
@@ -21,11 +25,33 @@ body {
   margin-bottom: 60px;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+.form-floating > .form-control-plaintext::placeholder,
+.form-floating > .form-control::placeholder {
   color: var(--bs-secondary-color);
   text-align: end;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+.form-floating > .form-control-plaintext:focus::placeholder,
+.form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+
+/* Main color for buttons and other elements */
+:root {
+  --bs-primary: #3f6b57;
+  --bs-primary-rgb: 63, 107, 87;
+  --bs-link-color: #3f6b57;
+  --bs-link-color-rgb: 63, 107, 87;
+  --bs-link-hover-color: #345947;
+}
+
+.btn-primary {
+  --bs-btn-bg: #3f6b57;
+  --bs-btn-border-color: #3f6b57;
+  --bs-btn-hover-bg: #345947;
+  --bs-btn-hover-border-color: #345947;
+  --bs-btn-active-bg: #2d4d3e;
+  --bs-btn-active-border-color: #2d4d3e;
+  --bs-btn-focus-shadow-rgb: 63, 107, 87;
 }

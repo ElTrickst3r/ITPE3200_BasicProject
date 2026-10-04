@@ -1,8 +1,48 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@* Temporary application name until we decide on a final name for the application. *@
+<div class="text-center mt-5">
+    <h1>Course Practice</h1>
+    <p class="lead">
+        Practice course material and test your knowledge with interactive quizzes.
+    </p>
+
+    <a class="btn btn-primary"
+       asp-controller="Home"
+       asp-action="Quizzes">
+        Start Practicing
+    </a>
+</div>
+
+<div class="row mt-5">
+
+    <div class="col-md-4">
+        <div class="card h-100" style="min-height: 180px;">
+            <div class="card-body p-4">
+                <h5>Choose a Quiz</h5>
+                <p>Select from available quizzes based on course material.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card h-100" style="min-height: 180px;">
+            <div class="card-body p-4">
+                <h5>Test Your Knowledge</h5>
+                <p>Answer questions and practice what you have learned.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card h-100" style="min-height: 180px;">
+            <div class="card-body p-4">
+                <h5>Track Your Progress</h5>
+                <p>Keep track of the quizzes you have completed.</p>
+            </div>
+        </div>
+    </div>
+
 </div>
