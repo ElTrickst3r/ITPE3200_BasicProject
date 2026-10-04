@@ -1,15 +1,15 @@
 @{
-    ViewData["Title"] = "ASP.NET Core Quiz";
+    ViewData["Title"] = "MVC Quiz";
 }
 
 @* Temporary quiz layout. Questions and alternatives will be replaced with actual quiz content. *@
-<h1>ASP.NET Core Quiz</h1>
+<h1>MVC Quiz</h1>
 <p>Answer the questions below and submit the quiz when you are finished.</p>
 
 <div class="card mb-3">
     <div class="card-body p-4">
         <h5>Question 1</h5>
-        <p>question</p>
+        <p>What is the difference between a static and a dynamic web application?</p>
 
         <div class="form-check">
             <input class="form-check-input"
@@ -17,7 +17,7 @@
                    name="question1"
                    id="q1a1">
             <label class="form-check-label" for="q1a1">
-                alternative
+                A static web application serves pre-built files with fixed content to the browser, while a dynamic web application generates content on the fly, responding to user interactions.
             </label>
         </div>
 
@@ -27,7 +27,7 @@
                    name="question1"
                    id="q1a2">
             <label class="form-check-label" for="q1a2">
-                alternative
+                A static web application is always built with HTML and CSS, while a dynamic application uses only JavaScript.
             </label>
         </div>
 
@@ -37,7 +37,7 @@
                    name="question1"
                    id="q1a3">
             <label class="form-check-label" for="q1a3">
-                alternative
+                A static web application requires a server and a database, while a dynamic application does not.
             </label>
         </div>
     </div>
@@ -46,7 +46,7 @@
 <div class="card mb-3">
     <div class="card-body p-4">
         <h5>Question 2</h5>
-        <p>question</p>
+        <p>What is Model-View-Controller (MVC)?</p>
 
         <div class="form-check">
             <input class="form-check-input"
@@ -54,7 +54,7 @@
                    name="question2"
                    id="q2a1">
             <label class="form-check-label" for="q2a1">
-                alternative
+                A tool for managing JavaScript dependencies.
             </label>
         </div>
 
@@ -64,7 +64,7 @@
                    name="question2"
                    id="q2a2">
             <label class="form-check-label" for="q2a2">
-                alternative
+                A design pattern that separates an application into three distinct components to manage data, presentation, and control logic.
             </label>
         </div>
 
@@ -74,7 +74,44 @@
                    name="question2"
                    id="q2a3">
             <label class="form-check-label" for="q2a3">
-                alternative
+                A front-end framework for web applications
+            </label>
+        </div>
+    </div>
+</div>
+
+<div class="card mb-3">
+    <div class="card-body p-4">
+        <h5>Question 3</h5>
+        <p>What is the primary purpose of the MVC pattern?</p>
+
+        <div class="form-check">
+            <input class="form-check-input"
+                   type="radio"
+                   name="question3"
+                   id="q3a1">
+            <label class="form-check-label" for="q3a1">
+                To enhance an application's visual design with modern CSS frameworks.
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input"
+                   type="radio"
+                   name="question3"
+                   id="q3a2">
+            <label class="form-check-label" for="q3a2">
+                To reduce dependencies between components and promote maintainability by separating tasks.
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input"
+                   type="radio"
+                   name="question3"
+                   id="q3a3">
+            <label class="form-check-label" for="q3a3">
+                To increase the speed of client-side operations.
             </label>
         </div>
     </div>
